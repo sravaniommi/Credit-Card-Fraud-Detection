@@ -44,7 +44,7 @@ The main objectives of this project are:
 
 ---
 
-## Dataset
+## Dataset 
 
 The project uses a credit card transaction dataset containing transactions classified as legitimate or fraudulent.
 
@@ -52,47 +52,5 @@ The target column is:
 
 ```text
 Class
-
-
-## **How to Run the Project**
-## **Option 1 **: Google Colab
-Open the .ipynb file in Google Colab and run the cells sequentially.
-
-## **Option 2 **: Jupyter Notebook
-Install the required libraries:
-
-pip install -r requirements.txt
-
-Then open the notebook:
-
-jupyter notebook
-
-Open:
-credit_card_fraud_detection.ipynb
-and run the cells.
-
-## **Machine Learning Models**
-## **1. Logistic Regression**
-
-Logistic Regression is used as the baseline classification model.
-
-It predicts the probability that a transaction belongs to one of the two classes:
-
-0 → Legitimate
-1 → Fraudulent
-
-## **2. Random Forest**
-Random Forest is an ensemble learning algorithm that combines multiple decision trees to make predictions.
-
-It is used to capture more complex relationships in the transaction data and is compared with Logistic Regression.
-
-
-## **Conclusion**
-
-This project demonstrates how machine learning can be applied to credit card fraud detection.
-
-Logistic Regression provides a simple baseline classification model, while Random Forest provides a more flexible ensemble-based approach.
-
-The models are evaluated using multiple metrics to understand their ability to identify fraudulent transactions.
 
 
